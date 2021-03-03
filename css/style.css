@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #f0f2f4;
+}
+
+/* Header Section starts here */
+
+#headerSection {
+  width: 100%;
+  background: linear-gradient(to bottom right, #017ec1, #3e806f);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  flex-basis: 18%;
+}
+
+.search {
+  flex-basis: 60%;
+}
+
+.links {
+  flex-basis: 20%;
+}
+
+.logo {
+  margin: 2px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 88px;
+}
+
+#headerSection .search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search span {
+  height: 35%;
+  width: 100%;
+}
+
+.search span > input {
+  /* border-radius: 20px; */
+  height: 100%;
+  width: 100%;
+  border: white;
+  padding: 0 0px 0 33px;
+  border-bottom: 1px solid rgb(235 235 235);
+}
+
+.search span > input::placeholder {
+  color: #999;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+  margin: 6px;
+}
+
+/* Header Section ends here */
+
+/* Card Section starts Here */
+
+#cardSection {
+  justify-content: center;
+  width: 98%;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#cardSection .card {
+  background: #fff;
+  box-shadow: 1px 1px 4px 1px #ccc;
+  border-radius: 15px;
+  margin: 26px;
+  display: flex;
+  flex-direction: column;
+  width: 215px;
+  align-items: center;
+  justify-content: center;
+  transition: 2s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.cardImg {
+  flex-basis: 50%;
+}
+
+.cardName {
+  flex-basis: 10%;
+}
+
+.cardText {
+  flex-basis: 40%;
+}
+
+#cardSection .card .cardImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cardSection .card span img {
+  padding: 5px;
+  width: 72%;
+  height: 92%;
+}
+
+#cardSection .card .cardName {
+  align-items: center;
+  display: flex;
+}
+
+#cardSection .card .cardName h4 {
+  padding: 8px;
+}
+
+#cardSection .card .cardText {
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+}
+
+#cardSection .card .cardText p {
+  padding: 2px;
+  margin: 2px;
+}
+
+/* Card Section starts Here */
