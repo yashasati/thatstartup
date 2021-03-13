@@ -45,6 +45,11 @@ body {
   border-radius: 88px;
 }
 
+.logo img:hover {
+  filter: drop-shadow(1px 1px 8px white);
+  transition: 1s ease;
+}
+
 #headerSection .search {
   display: flex;
   align-items: center;
@@ -54,6 +59,11 @@ body {
 .search span {
   height: 35%;
   width: 100%;
+}
+
+.search span img {
+  position: absolute;
+  margin: 8px 0px 0px 4px;
 }
 
 .search span > input {
@@ -80,8 +90,14 @@ body {
 .links a {
   text-decoration: none;
   color: white;
-  padding: 2px;
+  padding: 4px;
   margin: 6px;
+}
+
+.links a:hover {
+  background: #fff;
+  color: black;
+  border-radius: 8px;
 }
 
 /* Header Section ends here */
@@ -126,6 +142,14 @@ body {
   flex-basis: 40%;
 }
 
+#cardSection .card a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #cardSection .card .cardImg {
   display: flex;
   align-items: center;
@@ -135,7 +159,7 @@ body {
 #cardSection .card span img {
   padding: 5px;
   width: 72%;
-  height: 92%;
+  height: 97%;
 }
 
 #cardSection .card .cardName {
